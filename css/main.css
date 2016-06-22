@@ -9,7 +9,7 @@ body {
 .page-header {
 	background: #6a5638;
 	color: #ffffff;
-	padding: 4rem 2rem;
+	padding: 2.5rem 2rem 3rem 2rem;
 	text-align: center;
 	border-bottom: 3px solid #501214;
 	text-shadow: 2px 2px 1px #363534;
@@ -32,7 +32,7 @@ a:hover {
 }
 
 a:hover img {
-	opacity: .9;
+	transform: scale(1.05);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,7 +51,7 @@ img {
 	width: 100%;
 	max-width: 150px;
 	margin-bottom: 1.5rem;
-	transition: all .2s ease;
+	transition: all .2s ease-in-out;
 }
 
 .container {
@@ -60,6 +60,20 @@ img {
 
 .column {
 	padding: 2rem 1rem;
+}
+
+.find-us {
+    margin-top: 6rem;
+}
+
+.github-logo a {
+    font-size: 5rem;
+    display: inline-block;
+	transition: all .2s ease-in-out;
+}
+
+.github-logo a:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
